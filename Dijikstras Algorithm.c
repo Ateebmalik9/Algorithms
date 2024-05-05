@@ -46,9 +46,7 @@ void DijkstraAlgorithm(int Graph[MAX][MAX], int size, int start) {
     // Printing the distance  
     printf("\nShortest distances from the starting node:\n");
     for (i = 0; i < size; i++)  
-        if (i != start) {  
             printf("Node %d: %d\n", i, distance[i]);  
-        }  
 }
 
 int main() {  
